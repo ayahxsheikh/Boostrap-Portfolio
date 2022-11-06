@@ -1,0 +1,32 @@
+:root {
+    --primary-color: #c7dde3;
+    --secondary-color: #ffb6c1; 
+
+}
+
+/*RESETS*/
+
+
+/* JUMBOTRON */
+.jumbotron {
+    background-image: url(../images/02-hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* NAV */
+.nav {
+    justify-content: end;
+    background-color: var(--primary-color);
+}
+
+.nav a {
+    color: #ffffff; 
+    cursor: pointer;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
