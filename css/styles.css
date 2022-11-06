@@ -1,6 +1,7 @@
 :root {
     --primary-color: #c7dde3;
     --secondary-color: #ffb6c1; 
+    --standard-padding: 15px;
 
 }
 
@@ -29,4 +30,25 @@
 
 .nav a:hover {
     text-decoration: underline;
+}
+
+/* MAIN STYLES */
+
+.about-sec {
+    border: 2px solid #cdc5c59f;
+    border-radius: 20px;
+    padding: var(--standard-padding);
+}
+
+.sectionHeading {
+    text-align: center;
+    padding: var(--standard-padding);
+}
+
+.imageContainer img {
+    width: 100%;
+}
+
+.col-8.p-text {
+    align-items: flex-end;
 }
