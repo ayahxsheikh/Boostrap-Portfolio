@@ -76,3 +76,12 @@
     width: 55%;
 }
 
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ figcaption {
+    text-align: center;
+ }
