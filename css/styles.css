@@ -67,9 +67,12 @@
 
 /* SKILLS */
 
-figure img {
-    width: 50%;
+.skills-sec {
     display: flex;
     align-items: center;
+}
+
+.logos {
+    width: 55%;
 }
 
