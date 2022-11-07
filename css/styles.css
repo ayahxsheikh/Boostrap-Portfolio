@@ -50,3 +50,13 @@
 .imageContainer img {
     width: 120%;
 }
+
+.portfolio-sec {
+
+}
+
+.card-img-top {
+    width: 100%; 
+    height: 40vw;
+    object-fit: cover;
+}
