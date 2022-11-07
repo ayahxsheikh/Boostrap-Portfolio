@@ -34,6 +34,10 @@
 
 /* MAIN STYLES */
 
+.container {
+    margin: auto;
+}
+
 .about-sec {
     border: 2px solid #cdc5c59f;
     border-radius: 20px;
@@ -58,5 +62,5 @@
 .card-img-top {
     width: 100%; 
     height: 45vw;
-    object-fit: cover;
+    object-fit: cover; 
 }
