@@ -38,6 +38,8 @@
     border: 2px solid #cdc5c59f;
     border-radius: 20px;
     padding: var(--standard-padding);
+    display: flex;
+    justify-content: space-around;
 }
 
 .sectionHeading {
@@ -46,9 +48,5 @@
 }
 
 .imageContainer img {
-    width: 100%;
-}
-
-.col-8.p-text {
-    align-items: flex-end;
+    width: 120%;
 }
