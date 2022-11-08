@@ -1,21 +1,11 @@
 :root {
     --primary-color: #c7dde3;
-    --secondary-color: #ffb6c1; 
+    --secondary-color: #000000; 
     --standard-padding: 15px;
 
 }
 
 /*RESETS*/
-
-
-/* JUMBOTRON */
-.jumbotron {
-    background-image: url(../images/02-hero-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 
 /* NAV */
 .nav {
@@ -32,9 +22,19 @@
     text-decoration: underline;
 }
 
+/* JUMBOTRON */
+.jumbotron {
+    background-image: url(../images/hero-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20rem;
+}
+
 /* MAIN STYLES */
-.portfolio,.skills,.contact {
-    margin-bottom: 2rem;
+
+.content {
+    
 }
 
 .about-sec {
@@ -56,9 +56,6 @@
 
 /* Portfolio */
 
-.portfolio-sec {
-}
-
 .card-img-top {
     width: 100%; 
     height: 45vw;
@@ -67,10 +64,9 @@
 
 /* SKILLS */
 
-.skills-sec {
-    display: flex;
-    align-items: center;
-}
+/*.skills {
+    background-color: var(--primary-color);
+}*/
 
 .logos {
     width: 55%;
@@ -89,6 +85,10 @@
  .logos-1 {
     width: 50%;
  }
+
+ .portfolio,.skills,.contact {
+    margin-bottom: 2rem;
+}
 
  /* Contact */
 h3 {
