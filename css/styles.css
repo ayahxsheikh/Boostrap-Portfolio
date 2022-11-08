@@ -32,12 +32,21 @@ body {
 
 /* JUMBOTRON */
 .jumbotron {
+    height: 80vh;
     background-image: url(../images/hero-3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     padding-bottom: 20rem;
+}
+
+.hero-text {
+    position: absolute;
+    padding: 10px 50px 0px 20px;
+    left: 0%;
+    top: 35%;
+    background-color: #f1e8dd82;
 }
 
 /* MAIN STYLES */
