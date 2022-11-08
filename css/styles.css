@@ -1,6 +1,7 @@
 :root {
     --primary-color: #c7dde3;
     --secondary-color: #ffb6c1; 
+    --background-color: #f1e8dd;
     --standard-padding: 15px;
 
 }
@@ -8,7 +9,10 @@
 /*RESETS*/
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--background-color)
 }
+
+
 /* NAV */
 .nav {
     justify-content: end;
@@ -47,7 +51,6 @@ body {
 
 /* Portfolio */
 
-
 .card {
     box-shadow: 0 5px 7px 0 rgba(161, 161, 161, 0.633);
     margin-top: 15px;
@@ -68,7 +71,7 @@ body {
 /* SKILLS */
 
 .skills {
-    background-color: var(--primary-color);
+    background-color: #f1e8dd;
 }
 
 .logos {
