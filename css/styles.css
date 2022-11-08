@@ -103,15 +103,34 @@ form {
 
 .btn {
     display: block;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-left: auto;
     margin-right: auto;
 }
 
-.btn-primary{
+.btn-primary {
 
 }
 
 button {
     width: 150px;
+}
+
+/* Footer */
+.footer-sec {
+    margin-top: 1.5rem;
+    padding: 20px;
+    background: var(--primary-color);
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer a {
+    color: #ffffff; 
+    cursor: pointer;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #ffffff; 
 }
