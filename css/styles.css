@@ -6,7 +6,9 @@
 }
 
 /*RESETS*/
-
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 /* NAV */
 .nav {
     justify-content: end;
@@ -33,10 +35,6 @@
 
 /* MAIN STYLES */
 
-.content {
-    
-}
-
 .about-sec {
     border: 2px solid #cdc5c59f;
     border-radius: 20px;
@@ -55,11 +53,16 @@
 }
 
 /* Portfolio */
-
 .card-img-top {
     width: 100%; 
     height: 45vw;
     object-fit: cover; 
+}
+
+.card-body {
+    background-color: var(--primary-color);
+    padding: 5px;
+    text-align: center;
 }
 
 /* SKILLS */
