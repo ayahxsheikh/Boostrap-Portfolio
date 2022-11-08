@@ -47,8 +47,10 @@ body {
 
 /* Portfolio */
 
+
 .card {
     box-shadow: 0 5px 7px 0 rgba(161, 161, 161, 0.633);
+    margin-top: 15px;
 }
 
 .card-img-top {
