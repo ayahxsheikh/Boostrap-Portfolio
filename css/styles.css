@@ -106,14 +106,16 @@ form {
     margin-top: 1.5rem;
     margin-left: auto;
     margin-right: auto;
-}
-
-.btn-primary {
-
-}
-
-button {
     width: 150px;
+    background-color: var(--primary-color);
+    border: 2px solid #f5f5f5;
+    border-radius: 10px;
+}
+
+.btn-primary:hover{
+    box-shadow: 0 3px 4px 0 rgba(161, 161, 161, 0.633);
+    background-color: #60d1f0 ;
+    border: 2px solid #23cbfa;
 }
 
 /* Footer */
