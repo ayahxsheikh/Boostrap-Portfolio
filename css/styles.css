@@ -30,14 +30,11 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     padding-bottom: 20rem;
 }
 
 /* MAIN STYLES */
-
-.container-fluid {
-
-}
 
 .sectionHeading {
     text-align: center;
@@ -95,8 +92,8 @@ body {
 }
 
  /* Contact */
-.contact {
-    background-image: url(../images/hero-3.png);
+.contact-about {
+    background-color: var(--primary-color);
 }
 
 h3 {
@@ -128,7 +125,7 @@ form {
 
 /* Footer */
 .footer-sec {
-   /* margin-top: 1.5rem;*/
+    margin-top: 1.5rem;
     padding: 20px;
     background: var(--secondary-color);
     display: flex;
