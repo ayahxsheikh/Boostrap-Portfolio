@@ -33,9 +33,8 @@
 }
 
 /* MAIN STYLES */
-
-.container {
-    margin: auto;
+.portfolio,.skills,.contact {
+    margin-bottom: 2rem;
 }
 
 .about-sec {
@@ -56,6 +55,9 @@
 }
 
 /* Portfolio */
+
+.portfolio-sec {
+}
 
 .card-img-top {
     width: 100%; 
@@ -120,7 +122,7 @@ form {
 
 /* Footer */
 .footer-sec {
-    margin-top: 1.5rem;
+   /* margin-top: 1.5rem;*/
     padding: 20px;
     background: var(--primary-color);
     display: flex;
