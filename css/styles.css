@@ -1,7 +1,9 @@
 :root {
     --primary-color: #c7dde3;
+    --p-color-transparent: #c7dde3b0;
     --secondary-color: #ffb6c1; 
     --background-color: #f1e8dd;
+    --bg-color-transparent: #f1e8ddd3;
     --standard-padding: 15px;
 
 }
@@ -63,16 +65,12 @@ body {
 }
 
 .card-body {
-    background-color: var(--primary-color);
+    background-color: var(--bg-color-transparent);
     padding: 5px;
     text-align: center;
 }
 
 /* SKILLS */
-
-.skills {
-    background-color: #f1e8dd;
-}
 
 .logos {
     width: 55%;
@@ -98,7 +96,8 @@ body {
 
  /* Contact */
 .contact-about {
-    background-color: var(--primary-color);
+    background-color: var(--p-color-transparent);
+    box-shadow: 0 5px 7px 0 rgba(161, 161, 161, 0.633);
 }
 
 h3 {
@@ -107,10 +106,18 @@ h3 {
 
 form {
     margin-top: -1em;
+
 }
 
 .form-group {
-    margin-bottom: 0.45rem; 
+    margin-bottom: 0rem; 
+
+}
+
+.form-control {
+    padding: 1.5rem 0.5rem;
+    border: 2px solid #f5f5f5;
+    border-radius: 10px;
 }
 
 .btn {
