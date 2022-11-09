@@ -49,6 +49,14 @@ body {
     background-color: #f1e8dd82;
 }
 
+/*.imageContainer {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: auto;
+}*/
+
 /* MAIN STYLES */
 
 .sectionHeading {
